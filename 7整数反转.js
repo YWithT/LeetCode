@@ -5,3 +5,4 @@ var reverse = function(x) {
     if(str>2**31-1) return 0
     return x < 0 ? -str:str;
 };
+console.log(123)
