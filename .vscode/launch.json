@@ -10,7 +10,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/121_买卖股票的最佳时机.js"
+            "program": "${workspaceFolder}/122_买卖股票的最佳时机二.js"
         }
     ]
 }
