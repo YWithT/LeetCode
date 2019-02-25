@@ -10,7 +10,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/2_两数相加.js"
+            "program": "${workspaceFolder}/8_字符串转换整数.js"
         }
     ]
 }
