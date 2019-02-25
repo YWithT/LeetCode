@@ -10,7 +10,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/724_寻找数组的中心索引.js"
+            "program": "${workspaceFolder}/121_买卖股票的最佳时机.js"
         }
     ]
 }
