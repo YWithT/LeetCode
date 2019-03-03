@@ -11,7 +11,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/42_接雨水.js"
+            "program": "${workspaceFolder}/45_跳跃游戏 II.js"
         }
     ]
 }
