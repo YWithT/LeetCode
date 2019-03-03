@@ -6,11 +6,12 @@
     "configurations": [       
 
 
+
         {
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/123_买卖股票的最佳时机三.js"
+            "program": "${workspaceFolder}/42_接雨水.js"
         }
     ]
 }
