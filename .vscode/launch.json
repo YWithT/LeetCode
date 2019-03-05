@@ -7,11 +7,12 @@
 
 
 
+
         {
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/70_爬楼梯.js"
+            "program": "${workspaceFolder}/198_打家劫舍.js"
         }
     ]
 }
