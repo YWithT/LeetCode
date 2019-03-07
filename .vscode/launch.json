@@ -12,7 +12,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/213_打家劫舍 II.js"
+            "program": "${workspaceFolder}/134_加油站.js"
         }
     ]
 }
