@@ -12,7 +12,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/62_不同路径.js"
+            "program": "${workspaceFolder}/135_分发糖果.js"
         }
     ]
 }
