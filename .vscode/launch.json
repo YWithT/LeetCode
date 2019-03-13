@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/63_不同路径 II.js"
+            "program": "${workspaceFolder}/64_最小路径和.js"
         }
     ]
 }
