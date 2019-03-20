@@ -9,7 +9,7 @@
             "request": "launch",
             "name": "Launch Program",
             //"program": "${workspaceFolder}/test.js"
-            "program": "${workspaceFolder}/47_全排列 II.js"
+            "program": "${workspaceFolder}/526_优美的排列.js"
         }
     ]
 }

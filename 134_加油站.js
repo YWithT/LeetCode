@@ -38,7 +38,7 @@ var canCompleteCircuit = function (gas, cost) {
             sum = 0;
         }
     }
-    return total < 0 ? -1 : start;  //若total<0说明总油量小于总消耗，无法跑完全程
+    return total < 0 ? -1 : start; //若total<0说明总油量小于总消耗，无法跑完全程
 };
 
 
