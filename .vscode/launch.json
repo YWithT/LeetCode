@@ -8,6 +8,6 @@
         "request": "launch",
         "name": "Launch Program",
         //"program": "${workspaceFolder}/test.js"
-        "program": "${workspaceFolder}/17_电话号码的字母组合.js"
+        "program": "${workspaceFolder}/667_优美的排列 II.js"
     }]
 }
