@@ -8,6 +8,6 @@
         "request": "launch",
         "name": "Launch Program",
         //"program": "${workspaceFolder}/test.js"
-        "program": "${workspaceFolder}/12_整数转罗马数字.js"
+        "program": "${workspaceFolder}/22_括号生成.js"
     }]
 }

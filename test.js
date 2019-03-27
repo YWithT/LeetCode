@@ -1,3 +1,2 @@
-var a = new Array(3).fill([]);
-a[0][0] = 1;
+var a = Math.pow(2, 31) - 1;
 console.log(a);
