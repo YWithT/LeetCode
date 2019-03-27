@@ -18,7 +18,7 @@ function computeNQueens(n, cur, C, res) {
         res.push(img.concat());
     }
     for (let i = 0; i < n; i++) {
-        if (cur >= n) break; //在实习运行中，若不加此判断则会产生一行冗余数据，影响绘图。
+        if (cur >= n) break; //在实际运行中，若不加此判断则会产生一行冗余数据，影响绘图。
         var flag = 1;
         C[cur] = i;
         for (let j = 0; j < cur; j++) {
