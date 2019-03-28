@@ -7,7 +7,7 @@
         "type": "node",
         "request": "launch",
         "name": "Launch Program",
-        //"program": "${workspaceFolder}/test.js"
-        "program": "${workspaceFolder}/22_括号生成.js"
+        "program": "${workspaceFolder}/test.js"
+        //"program": "${workspaceFolder}/94_二叉树的中序遍历.js"
     }]
 }
