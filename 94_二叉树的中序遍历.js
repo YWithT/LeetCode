@@ -41,21 +41,3 @@ var inorderTraversal = function (root) {
     }
     return res;
 };
-
-//迭代算法2
-var inorderTraversal = function (root) {
-    if (root == null) return [];
-    var stack = [root];
-    var res = [];
-    while (stack.length > 0) {
-        let top = stack.pop();
-        if (top.left) {
-            stack.push(top.left);
-        }
-        res.push(top.val);
-        if (top.right) {
-            stack.push(top.right);
-        }
-    }
-    return res;
-};

@@ -38,3 +38,21 @@ var preorderTraversal = function (root) {
     }
     return res;
 };
+
+//迭代算法2
+var preorderTraversal = function (root) {
+    if (!root) return [];
+    let stack = [root];
+    let res = [];
+    while (stack.length > 0) {
+        let top = stack.pop();
+        res.push(top.val);
+        if (top.right) {
+            stack.push(top.right);
+        }
+        if (top.left) {
+            stack.push(top.left);
+        }
+    }
+    return res;
+};
