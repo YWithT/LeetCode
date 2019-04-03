@@ -10,33 +10,33 @@
  * @param {number[]} post
  * @return {TreeNode}
  */
-var constructFromPrePost = function (pre, post) {
 
+//算法，相比"105_从前序与中序遍历序列构造二叉树"和"106_从中序与后序遍历序列构造二叉树"，使用前序和后序序列来构造二叉树更为复杂
+//因为无法通过一步就判断出当前节点的左子树序列和右子数序列，需要对下一个节点进一步嗅探，来判断出当前节点的左子树和右子数分别包含哪些节点
+var constructFromPrePost = function (pre, post) {
+    var root = buildTree(0, 0, post.length - 1, pre, post);
+    return root;
 };
 
-
-//js函数代码
-function Ethan(num, projCmptDec, restDec, errorScore) {
-    //定义项目数量
-    let count = 0;
-    //设定循环
-    while (1) {
-        //获取errorScore中的最大值
-        let errorMax = Math.max(errorScore);
-        //如果最大值已经小于等于0，则跳出循环
-        if (errorMax <= 0) {
-            break;
-        }
-        //获取最大值在数组中的下标
-        let maxIndex = errorMax.indexOf(errorMax);
-        //将数组中所有数减去restDec
-        for (let i = 0; i < errorScore.length; i++) {
-            errorScore[i] -= restDec;
-        }
-        //将最大数再减去(projCmptDec-restDec)
-        errorScore[maxIndex] -= projCmptDec - restDec;
-        //项目数量加1
-        count++;
+function buildTree(preStart, postStart, postEnd, pre, post) {
+    if (preStart > pre.length - 1 || postStart > postEnd) return null;
+    let cur = new TreeNode(pre[preStart]);
+    let i = post.indexOf(pre[preStart]);
+    //对下一个节点进一步嗅探
+    let j = post.indexOf(pre[preStart + 1]);
+    if (j != -1 && j < i && cur != null) {
+        //根据j的值将post分为左子树和右子数
+        cur.left = buildTree(preStart + 1, postStart, j, pre, post);
+        cur.right = buildTree(preStart + j - postStart + 2, j + 1, postEnd - 1, pre, post);
     }
-    return count;
+    return cur;
 }
+
+function TreeNode(val) {
+    this.val = val;
+    this.left = this.right = null;
+}
+
+pre = [1, 2, 4, 5, 3, 6, 7];
+post = [4, 5, 2, 6, 7, 3, 1];
+console.log(constructFromPrePost(pre, post));

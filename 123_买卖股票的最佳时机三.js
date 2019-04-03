@@ -3,21 +3,6 @@
  * @return {number}
  */
 
-// var Math.maxProfit = function (prices) {
-//     if (prices == null || prices.length == 0)
-//         return 0;
-//     var local = [];
-//     var global = [];
-//     for (let i = 0; i < prices.length - 1; i++) {
-//         let diff = prices[i + 1] - prices[i];
-//         for (let j = 2; j >= 1; j--) {
-//             local[j] = Math.Math.max(global[j - 1] + (diff > 0 ? diff : 0), local[j] + diff);
-//             global[j] = Math.Math.max(local[j], global[j]);
-//         }
-//     }
-//     return global[2];
-// };
-
 
 var maxProfit = function (prices) {
     if (prices.length == 0) return 0;
