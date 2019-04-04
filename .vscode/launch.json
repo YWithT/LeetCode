@@ -8,6 +8,6 @@
         "request": "launch",
         "name": "Launch Program",
         //"program": "${workspaceFolder}/test.js"
-        "program": "${workspaceFolder}/108_将有序数组转换为二叉搜索树.js"
+        "program": "${workspaceFolder}/649_Dota2 参议院.js"
     }]
 }
