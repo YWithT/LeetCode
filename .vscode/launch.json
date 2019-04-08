@@ -8,6 +8,6 @@
         "request": "launch",
         "name": "Launch Program",
         //"program": "${workspaceFolder}/test.js"
-        "program": "${workspaceFolder}/649_Dota2 参议院.js"
+        "program": "${workspaceFolder}/518_☆_零钱兑换 II.js"
     }]
 }
