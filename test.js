@@ -1,2 +1,8 @@
-var a = [1, 2, 2, 3]
-console.log(a[a.length - 1]);
+var a = [1, 2, 11, 3]
+console.log(
+    a.sort(
+        function order(a, b) {
+            return a - b
+        }
+    )
+);
