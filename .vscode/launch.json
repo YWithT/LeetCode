@@ -8,6 +8,6 @@
         "request": "launch",
         "name": "Launch Program",
         //"program": "${workspaceFolder}/test.js"
-        "program": "${workspaceFolder}/518_☆_零钱兑换 II.js"
+        "program": "${workspaceFolder}/996_正方形数组的数目.js"
     }]
 }
