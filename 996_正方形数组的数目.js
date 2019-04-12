@@ -24,7 +24,7 @@ function check(A, visit, res, count) {
         if (A[i] == A[i - 1] && visit[i - 1] == 0) continue; //防止出现重复排列
         if (visit[i] == 0) {
             let val = res.length == 0 ? 1 : Math.sqrt(A[i] + res[res.length - 1]); //当res长度不为1时检查是否满足题目要求
-            if (val === Math.floor(val)) {
+            if (val === Math.floor(val)) {      
                 visit[i] = 1;
                 res.push(A[i]);
                 check(A, visit, res, count);
