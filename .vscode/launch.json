@@ -8,6 +8,6 @@
         "request": "launch",
         "name": "Launch Program",
         //"program": "${workspaceFolder}/test.js"
-        "program": "${workspaceFolder}/19_删除链表的倒数第N个节点.js"
+        "program": "${workspaceFolder}/464_我能赢吗.js"
     }]
 }
