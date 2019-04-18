@@ -8,6 +8,6 @@
         "request": "launch",
         "name": "Launch Program",
         //"program": "${workspaceFolder}/test.js"
-        "program": "${workspaceFolder}/464_我能赢吗.js"
+        "program": "${workspaceFolder}/1007_行相等的最少多米诺旋转.js"
     }]
 }
