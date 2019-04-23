@@ -1,8 +1,8 @@
-var a = [1, 2, 11, 3]
-console.log(
-    a.sort(
-        function order(a, b) {
-            return a - b
-        }
-    )
-);
+a = {
+
+};
+if (a[0])
+    a[0]++;
+else
+    a[0] = 1;
+console.log(++a[0]);
