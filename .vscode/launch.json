@@ -8,6 +8,6 @@
         "request": "launch",
         "name": "Launch Program",
         //"program": "${workspaceFolder}/test.js"
-        "program": "${workspaceFolder}/316_去除重复字母.js"
+        "program": "${workspaceFolder}/658_找到 K 个最接近的元素.js"
     }]
 }
