@@ -77,18 +77,3 @@ RandomizedCollection.prototype.getRandom = function () {
     let randomIndex = Math.floor(Math.random() * this.arr.length);
     return this.arr[randomIndex];
 };
-
-
-
-let test = new RandomizedCollection();
-console.log(test.insert(1));
-console.log(test.insert(1));
-console.log(test.insert(2));
-console.log(test.insert(2));
-console.log(test.insert(2));
-console.log(test.remove(1));
-console.log(test.remove(1));
-console.log(test.remove(2));
-console.log(test.insert(1));
-console.log(test.remove(2));
-console.log(test.remove(4));
