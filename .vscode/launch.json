@@ -8,6 +8,6 @@
         "request": "launch",
         "name": "Launch Program",
         //"program": "${workspaceFolder}/test.js"
-        "program": "${workspaceFolder}/381_O(1) 时间插入、删除和获取随机元素 - 允许重复.js"
+        "program": "${workspaceFolder}/377_组合总和 Ⅳ.js"
     }]
 }
