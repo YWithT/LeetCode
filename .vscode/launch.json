@@ -8,6 +8,6 @@
         "request": "launch",
         "name": "Launch Program",
         //"program": "${workspaceFolder}/test.js"
-        "program": "${workspaceFolder}/934. 最短的桥.js"
+        "program": "${workspaceFolder}/24_两两交换链表中的节点.js"
     }]
 }
