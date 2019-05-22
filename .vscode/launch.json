@@ -8,6 +8,6 @@
         "request": "launch",
         "name": "Launch Program",
         //"program": "${workspaceFolder}/test.js"
-        "program": "${workspaceFolder}/68_文本左右对齐.js"
+        "program": "${workspaceFolder}/60_第k个排列.js"
     }]
 }
