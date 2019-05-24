@@ -8,6 +8,6 @@
         "request": "launch",
         "name": "Launch Program",
         //"program": "${workspaceFolder}/test.js"
-        "program": "${workspaceFolder}/93_复原IP地址.js"
+        "program": "${workspaceFolder}/91_解码方法.js"
     }]
 }
