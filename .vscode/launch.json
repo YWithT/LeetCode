@@ -8,6 +8,6 @@
         "request": "launch",
         "name": "Launch Program",
         //"program": "${workspaceFolder}/test.js"
-        "program": "${workspaceFolder}/29_两数相除.js"
+        "program": "${workspaceFolder}/10_正则表达式匹配.js"
     }]
 }
