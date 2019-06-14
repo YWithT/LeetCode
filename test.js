@@ -1,8 +1,5 @@
-a = {
+function replaceSpace(str) {
+    return str.replace(/\W/g, "%20");
+}
 
-};
-if (a[0])
-    a[0]++;
-else
-    a[0] = 1;
-console.log(++a[0]);
+console.log(replaceSpace("fe fe fe "))
