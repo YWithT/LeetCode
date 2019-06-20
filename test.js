@@ -1,5 +1,4 @@
-function replaceSpace(str) {
-    return str.replace(/\W/g, "%20");
-}
+var arr = [1, 2, 3, 4, 5];
+delete arr[2];
 
-console.log(replaceSpace("fe fe fe "))
+console.log(arr)
