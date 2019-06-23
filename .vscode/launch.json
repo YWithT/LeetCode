@@ -8,6 +8,6 @@
         "request": "launch",
         "name": "Launch Program",
         //"program": "${workspaceFolder}/test.js"
-        "program": "${workspaceFolder}/79_单词搜索.js"
+        "program": "${workspaceFolder}/96_不同的二叉搜索树.js"
     }]
 }
