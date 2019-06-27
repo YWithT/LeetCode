@@ -1,4 +1,12 @@
-var arr = [1, 2, 3, 4, 5];
-delete arr[2];
+var x = 1;
 
-console.log(arr)
+function foo(x, y = function () {
+    x = 2;
+}) {
+    x = 3;
+    y();
+    console.log(x);
+}
+
+foo() // 3
+x // 1

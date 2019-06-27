@@ -8,6 +8,6 @@
         "request": "launch",
         "name": "Launch Program",
         //"program": "${workspaceFolder}/test.js"
-        "program": "${workspaceFolder}/95_不同的二叉搜索树 II.js"
+        "program": "${workspaceFolder}/152_乘积最大子序列.js"
     }]
 }
