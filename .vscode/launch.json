@@ -7,7 +7,7 @@
         "type": "node",
         "request": "launch",
         "name": "Launch Program",
-        //"program": "${workspaceFolder}/test.js"
-        "program": "${workspaceFolder}/152_乘积最大子序列.js"
+        //"program": "${workspaceFolder}/test2.js"
+        "program": "${workspaceFolder}/324_摆动排序 II.js"
     }]
 }

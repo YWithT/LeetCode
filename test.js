@@ -1,12 +1,10 @@
-var x = 1;
+// main.js
 
-function foo(x, y = function () {
-    x = 2;
-}) {
-    x = 3;
-    y();
-    console.log(x);
+import {
+    area,
+    circumference
 }
+from './circle';
 
-foo() // 3
-x // 1
+console.log('圆面积：' + area(4));
+console.log('圆周长：' + circumference(14));
