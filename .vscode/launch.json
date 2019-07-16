@@ -7,7 +7,7 @@
         "type": "node",
         "request": "launch",
         "name": "Launch Program",
-        //"program": "${workspaceFolder}/test2.js"
-        "program": "${workspaceFolder}/324_摆动排序 II.js"
+        //"program": "${workspaceFolder}/test.js"
+        "program": "${workspaceFolder}/208_实现 Trie (前缀树).js"
     }]
 }
