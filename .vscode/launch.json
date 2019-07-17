@@ -8,6 +8,6 @@
         "request": "launch",
         "name": "Launch Program",
         //"program": "${workspaceFolder}/test.js"
-        "program": "${workspaceFolder}/208_实现 Trie (前缀树).js"
+        "program": "${workspaceFolder}/215_数组中的第K个最大元素.js"
     }]
 }
